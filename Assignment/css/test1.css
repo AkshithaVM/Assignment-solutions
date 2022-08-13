@@ -1,0 +1,17 @@
+body{
+    background-color:aliceblue;
+}
+div{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.div1{
+    margin: 20px;
+    padding: 10px;
+}
+.button{
+    margin: 20px;
+    padding: 10px;
+    background-color: darkcyan;
+}

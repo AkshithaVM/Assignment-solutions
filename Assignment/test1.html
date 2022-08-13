@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/test1.css"/>
+    <script type="text/javascript"src="js/test1.js"></script>
+</head>
+<body>
+    <div>
+    <form  id="forms" name="tform"  method="post">
+        <div class="div1">
+            <label>Select your Source:</label>
+            <select  type="text" >
+            <option>Google Cloud Storage</option>
+            </select><br>
+        </div>
+        
+        <div  class="div1">
+          <label for="pipelineName">Provide a name for pipeline:</label>
+          <input id="pipeline" type="text"  size="50" placeholder="e.g.,cust_shop_energy_gkateway001" name="pipelineName"/><br>    
+        </div>
+
+       <div  class="div1">
+        <label>GCS project name:</label>
+        <input type="text" id="project" size="50" placeholder="project-id" name="projectName"/><br>
+       </div>
+        
+       <div  class="div1">
+        <label>GCS bucket name:</label>
+        <input type="text" id="bucket" size="50"  placeholder="gs://your-bucket" name="bucketName"/><br>
+       </div>
+       
+      <div  class="div1">
+        <label>Input Cloud Storage File(s):</label>
+        <input type="text" id="cloud" size="50" placeholder="GCS location of your files" name="cloudFile"/><br>
+      </div>
+        
+      <div  class="div1">
+        <label >GCS Credentials:</label>
+        <input type="text" id="credent" size="50" name="Credentials"/><br>
+      </div>
+        
+       <div  class="div1">
+        <label>Run Every:</label>
+        <input type="text"  id="runn" size="50" placeholder="(in minutes)" name="run" /><br>
+       </div>
+        
+      <div>
+        <input  id="btn" class="button" type="submit"  value="Create" />
+        <input id="btn1"  class="button" type="submit" value="Cancel" />
+      </div>
+    </form>
+    </div>
+</body>
+</html>
